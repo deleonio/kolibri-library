@@ -16,8 +16,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       '@stencil/core':
-        specifier: 4.12.2
-        version: 4.12.2
+        specifier: 4.12.2-dev.1708019928.b3d5775
+        version: 4.12.2-dev.1708019928.b3d5775
       '@types/jest':
         specifier: 26.0.24
         version: 26.0.24
@@ -83,7 +83,7 @@ importers:
         version: 3.0.2
       stencil-awesome-test:
         specifier: 1.0.6
-        version: 1.0.6(@stencil/core@4.12.2)
+        version: 1.0.6(@stencil/core@4.12.2-dev.1708019928.b3d5775)
       terser:
         specifier: 5.27.0
         version: 5.27.0
@@ -2972,6 +2972,12 @@ packages:
 
   /@stencil/core@4.12.2:
     resolution: {integrity: sha512-WEMpoqwMV4hY/ab2z9NxRhSeZwuKEugjyn6Vd+qA9xqZh6VNUL27QbP8vCa7IeqD4Zql4JBtKu3lVuBHutWE6w==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
+    hasBin: true
+    dev: true
+
+  /@stencil/core@4.12.2-dev.1708019928.b3d5775:
+    resolution: {integrity: sha512-OOMpcxWPKzahF3IHSN27TCSVSpeVXdn1kyupcdIrDdl2VWJxLJo/0Gua477AKR0UhyN7adGV60oK1vKTMEbdUA==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: true
@@ -13219,6 +13225,14 @@ packages:
       '@stencil/core': '>=2'
     dependencies:
       '@stencil/core': 4.12.2
+    dev: true
+
+  /stencil-awesome-test@1.0.6(@stencil/core@4.12.2-dev.1708019928.b3d5775):
+    resolution: {integrity: sha512-k/tCbR1Kw8ketuoPlXYNLpeqyoD6AWC22qBxNQDrQIcaXqxcIaoMACtB3x7LEVhMPXsHhPSH6Y4H/Haazvhvdg==}
+    peerDependencies:
+      '@stencil/core': '>=2'
+    dependencies:
+      '@stencil/core': 4.12.2-dev.1708019928.b3d5775
     dev: true
 
   /streamx@2.15.6:

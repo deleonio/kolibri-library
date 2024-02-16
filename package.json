@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@public-ui/components": "2.0.5",
-		"@stencil/core": "4.12.2",
+		"@stencil/core": "4.12.2-dev.1708019928.b3d5775",
 		"@types/jest": "26.0.24",
 		"@types/node": "ts5.3",
 		"@typescript-eslint/eslint-plugin": "7.0.1",
